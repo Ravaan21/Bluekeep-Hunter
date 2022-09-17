@@ -6,9 +6,13 @@ The objective of this exploit is to mass hunt for Bluekeep vulnerabilities. This
 To obtain the list in linux one can use shodan search vuln:CVE-2019-0708
 
 Install and Usage:
+
 To install clone this repository.
+
 cd Bluekeep-Hunter
+
 chmod +x bluekeephunter.sh
+
 ./bluekeephunter.sh targets.txt
 
 Additional: To view usage ./blukeephunter.sh -h
